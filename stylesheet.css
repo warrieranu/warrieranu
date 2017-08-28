@@ -1,13 +1,55 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    position: fixed;
-    top: 0;
-} 
+body {
+    margin:0px;
+    
+}
 
-li a {
-    display: block;
-    width: 20%;
+
+.topnav {
+  overflow: hidden;
+  background-color: White;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: Tomato;
+  text-align: center;
+  padding: 20px 25px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Garamond;
+}
+
+.topnav a:hover {
+  background-color: #008F95;
+  color: black;
+  color: White;
+}
+
+.topnav a.active {
+    background-color: #E24E42;
+    color: white;
+}
+
+.imgcontainer {
+    width: 100%;
+    position:relative;
+    overflow: hidden;
+    
+}
+
+h1 { 
+   position: absolute; 
+   top: 60%; 
+   left: 0; 
+   width: 100%; 
+}
+
+h1 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
 }
